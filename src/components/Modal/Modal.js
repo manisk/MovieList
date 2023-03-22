@@ -26,7 +26,7 @@ export default function Modal(
 
   return (
     <div className="modal fade" id={props.modalId}>
-      {editMovieStatus}
+      {JSON.stringify(editMovieStatus)}
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
