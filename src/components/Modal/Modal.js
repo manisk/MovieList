@@ -22,10 +22,11 @@ export default function Modal(
     setMovieName(props.movieName);
     setMovieType(props.movieType);
     setMovieLang(props.movieLang);
-  }, []);
+  }, [props.movieImg, props.movieName, props.movieType, props.movieLang]);
 
   return (
     <div className="modal fade" id={props.modalId}>
+      {editMovieStatus}
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
