@@ -1,0 +1,39 @@
+{
+  "movies": [
+    {
+      "movieImg": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-MjIsIE1hciAyMDIz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00355088-lexvhbxngj-portrait.jpg",
+      "movieName": "Khosty",
+      "movieType": "Comedy/Horror",
+      "movieLang": "Kanda",
+      "id": 3
+    },
+    {
+      "movieImg": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-MjIsIE1hciAyMDIz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00355070-cqjdrqnewf-portrait.jpg",
+      "movieName": "Rangamarthanda",
+      "movieType": "Darma",
+      "movieLang": "Telugu",
+      "id": 4
+    },
+    {
+      "movieImg": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-MjQsIE1hciAyMDIz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00354871-egkpxwtnej-portrait.jpg",
+      "movieName": "Operation Mayfair",
+      "movieType": "Crime/Thriller",
+      "movieLang": "Hindi",
+      "id": 5
+    },
+    {
+      "movieImg": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-NywgQXByIDIwMjM%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00353346-gzlbhuajll-portrait.jpg",
+      "movieName": "The Pope's Exorcist",
+      "movieType": "Horror /Thriller",
+      "movieLang": "English",
+      "id": 6
+    },
+    {
+      "movieImg": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-MjQsIE1hciAyMDIz,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00351618-smhyhrqeum-portrait.jpg",
+      "movieName": "Bheed",
+      "movieType": "Drama",
+      "movieLang": "Hindi",
+      "id": 7
+    }
+  ]
+}
