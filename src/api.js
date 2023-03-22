@@ -1,5 +1,8 @@
+// const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://my-json-server.typicode.com/manisk/json-server";
+
 export function getMoviesListApi(onSuccess, onError) {
-  const url = "http://localhost:8000/movies";
+  const url = BASE_URL + "/movies";
   return fetch(url, {
     headers: {
       "Content-Type": "application/json",
@@ -29,7 +32,7 @@ export function addMovieApi(
   onSuccess,
   onError
 ) {
-  const url = "http://localhost:8000/movies";
+  const url = BASE_URL + "/movies";
   const movieData = {
     movieImg: imgurl,
     movieName: moviename,
@@ -60,7 +63,7 @@ export function addMovieApi(
 }
 
 export function deleteMovieApi(movieId, onSuccess, onError) {
-  const url = "http://localhost:8000/movies/" + movieId;
+  const url = BASE_URL + "/movies/" + movieId;
   fetch(url, {
     method: "DELETE",
     headers: {
@@ -90,7 +93,7 @@ export function editMovieApi(
   onSuccess,
   onError
 ) {
-  const url = "http://localhost:8000/movies/" + id;
+  const url = BASE_URL + "/movies/" + id;
   const editData = {
     movieImg: movieImg,
     movieName: movieName,
